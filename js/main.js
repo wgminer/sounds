@@ -4,7 +4,7 @@ $(function () {
 
 	let audioElement = document.createElement('audio');   
 
-	audioElement.volume = .1; 
+	audioElement.volume = 1; 
 
     audioElement.addEventListener('ended', function() {
         this.play();

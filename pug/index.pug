@@ -4,14 +4,19 @@ head
 	title Sounds
 	meta(name="description" content="Sounds")
 	meta(name="author" content="William Miner")
-	link(rel="stylesheet" href="/css/normalize.css")
-	link(rel="stylesheet" href="/css/main.css")
+	link(href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet")
+	link(rel="stylesheet" href="css/normalize.css")
+	link(rel="stylesheet" href="css/main.css")
 .container
 	h1 Sounds
+	p Short recordings I've made over the years - an attempt to capture more than just my visual experience. 
 	.grid
 		each file in files
 			.item(data-path= file.path)
 				span= file.title
 
-script(src="/js/jquery.js")
-script(src="/js/main.js")
+script(src="js/jquery.js")
+script(src="js/main.js")
+
+
+28

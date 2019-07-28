@@ -1,146 +1,110 @@
 [
     {
         "date": "2018-06-16",
-        "title": "Banff Lake",
+        "title": "banff_lake",
         "path": "../audio/banff_lake.m4a",
         "fileName": "banff_lake.m4a"
     },
     {
         "date": "2019-07-26",
-        "title": "Catskill Park 3",
+        "title": "catskill_park_3",
         "path": "../audio/catskill_park_3.m4a",
         "fileName": "catskill_park_3.m4a"
     },
     {
         "date": "2016-03-14",
-        "title": "Crystal Palace Madrid",
+        "title": "crystal_palace_madrid",
         "path": "../audio/crystal_palace_madrid.m4a",
         "fileName": "crystal_palace_madrid.m4a"
     },
     {
         "date": "2017-02-22",
-        "title": "Doi Suthep",
+        "title": "doi_suthep",
         "path": "../audio/doi_suthep.m4a",
         "fileName": "doi_suthep.m4a"
     },
     {
         "date": "2015-11-01",
-        "title": "Frida Khalo Line",
+        "title": "frida_khalo_line",
         "path": "../audio/frida_khalo_line.m4a",
         "fileName": "frida_khalo_line.m4a"
     },
     {
         "date": "2016-02-23",
-        "title": "Guadalupe Morning",
+        "title": "guadalupe_morning",
         "path": "../audio/guadalupe_morning.m4a",
         "fileName": "guadalupe_morning.m4a"
     },
     {
         "date": "2016-02-24",
-        "title": "Guadelupe Hike",
+        "title": "guadelupe_jungle_hike",
         "path": "../audio/guadelupe_jungle_hike.m4a",
         "fileName": "guadelupe_jungle_hike.m4a"
     },
     {
         "date": "2016-05-28",
-        "title": "Hudson Valley Retreat",
+        "title": "hudson_valley_retreat",
         "path": "../audio/hudson_valley_retreat.m4a",
         "fileName": "hudson_valley_retreat.m4a"
     },
     {
         "date": "2017-06-15",
-        "title": "Joshua Tree Morning",
+        "title": "joshua_tree_morning",
         "path": "../audio/joshua_tree_morning.m4a",
         "fileName": "joshua_tree_morning.m4a"
     },
     {
         "date": "2015-08-15",
-        "title": "Lake George Porch",
+        "title": "lake_george_porch",
         "path": "../audio/lake_george_porch.m4a",
         "fileName": "lake_george_porch.m4a"
     },
     {
         "date": "2015-07-12",
-        "title": "Morning At Camp",
+        "title": "morning_at_camp",
         "path": "../audio/morning_at_camp.m4a",
         "fileName": "morning_at_camp.m4a"
     },
     {
         "date": "2015-10-31",
-        "title": "Mxdf Restaurant",
+        "title": "mxdf_restaurant",
         "path": "../audio/mxdf_restaurant.m4a",
         "fileName": "mxdf_restaurant.m4a"
     },
     {
         "date": "2015-12-05",
-        "title": "Output",
+        "title": "output",
         "path": "../audio/output.m4a",
         "fileName": "output.m4a"
     },
     {
         "date": "2016-08-14",
-        "title": "Pioneer Works",
+        "title": "pioneer_works_with_colleen",
         "path": "../audio/pioneer_works_with_colleen.m4a",
         "fileName": "pioneer_works_with_colleen.m4a"
     },
     {
         "date": "2016-07-8",
-        "title": "Portland Hike",
+        "title": "portland_hike",
         "path": "../audio/portland_hike.m4a",
         "fileName": "portland_hike.m4a"
     },
     {
         "date": "2015-12-17",
-        "title": "Rain At Work",
+        "title": "rain_at_work",
         "path": "../audio/rain_at_work.m4a",
         "fileName": "rain_at_work.m4a"
     },
     {
         "date": "2015-12-05",
-        "title": "Station Brunch",
+        "title": "station_brunch",
         "path": "../audio/station_brunch.m4a",
         "fileName": "station_brunch.m4a"
     },
     {
         "date": "2015-11-02",
-        "title": "Temple Of The Sun",
+        "title": "temple_of_the_sun",
         "path": "../audio/temple_of_the_sun.m4a",
         "fileName": "temple_of_the_sun.m4a"
-    },
-    {
-        "date": "2017-02-19",
-        "title": "Chiangmai Morning",
-        "path": "../audio/chiangmai_morning.m4a",
-        "fileName": "chiangmai_morning.m4a"
-    },
-    {
-        "date": "2017-02-19",
-        "title": "Chiangmai Market",
-        "path": "../audio/chiangmai_sunday_walking_market.m4a",
-        "fileName": "chiangmai_sunday_walking_market.m4a"
-    },
-    {
-        "date": "2015-12-22",
-        "title": "Everglades",
-        "path": "../audio/everglades.m4a",
-        "fileName": "everglades.m4a"
-    },
-    {
-        "date": "2016-01-10",
-        "title": "Rain In Wburg",
-        "path": "../audio/rain_in_wburg.m4a",
-        "fileName": "rain_in_wburg.m4a"
-    },
-    {
-        "date": "2015-08-17",
-        "title": "Sel Rrose",
-        "path": "../audio/sel_rrose_august_17th.m4a",
-        "fileName": "sel_rrose_august_17th.m4a"
-    },
-    {
-        "date": "2016-12-02",
-        "title": "Stalled, Silent L Train",
-        "path": "../audio/stalled_silent_l_train.m4a",
-        "fileName": "stalled_silent_l_train.m4a"
     }
 ]
