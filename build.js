@@ -22,7 +22,7 @@ files.forEach(f => {
 		manifest.push({
 			date: '',
 			title: changeCase.title(f.split('.')[0]),
-			path: '../audio/' + f,
+			path: 'audio/' + f,
 			fileName: f,
 		});
 	}
