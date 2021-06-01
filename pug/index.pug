@@ -8,15 +8,8 @@ head
 	link(rel="stylesheet" href="css/normalize.css")
 	link(rel="stylesheet" href="css/main.css")
 .container
-	.header
-		h1 Sounds
-		p "Sounds" is a series of short recordings I've made over the years. With the pervasivness of smartphones, most of our memories are captured with photos or video. This (ongoing) project is an attempt to capture a different set of senses.
-	.grid
 		each file in files
-			.item(data-path= file.path)
-				.bar
-				.title= file.title
-				.tip Click + Hold
+			.cell(src= file.path)= file.title
 
 script(src="js/jquery.js")
 script(src="js/main.js")
