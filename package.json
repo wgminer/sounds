@@ -5,7 +5,7 @@
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"nodemon -e js,pug build.js\" \"live-server\" ",
+    "dev": "concurrently \"nodemon -e js,pug build.js\" \"live-server -q\" ",
     "start": "node build.js"
   },
   "author": "",
