@@ -1,96 +1,74 @@
 body {
-  	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	background-color: #fff;
-	color: #333;
-	line-height: 1.5;
-}
-
-.container {
-	margin: 0 auto;
-	max-width: 1000px;
-	padding: 4rem;
-}
-
-h1 {
-	margin: 0 0 1rem;
-	font-size: 3rem;
-	font-weight: 700;
-	line-height: 1;
-}
-
-p {
-	margin: 0 0 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  color: #fff;
+  background-color: #223;
+  font-weight: 300;
 }
 
 .header {
-	min-width: 400px;
-	width: 50%;
+  /* text-align: center; */
+  background-color: #112;
+  padding: 4rem;
+  border-bottom: 1px solid #223;
 }
 
-.item {
-	background-color: #eee;
-	border: 2px solid #ccc;
-	cursor: pointer;
-	display: block;
-	position: relative;
-	line-height: 1.5;
-	padding: 1rem 2rem;
-	border-radius: 4px;
-	margin-bottom: 1rem;
-	transition: all 300ms ease;
-	overflow: hidden;
-	display: flex;
-	transition: all 500ms linear;
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0;
 }
 
-.item:hover {
-	background-color: #ccc;
-	border-color: #999;
+p {
+  /* margin: 0 auto; */
+  width: 50%;
 }
 
-.item:active {
-	border-color: blue;
-	color: blue;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  grid-auto-rows: 1fr;
+  column-gap: 1px;
+  row-gap: 1px;
 }
 
-
-.tip {
-	margin-left: auto;
-	color: #999;
-	opacity: 0;
-	transition: opacity .5s ease;
+.grid::before {
+  content: "";
+  width: 0;
+  padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
 }
 
-.item:hover .tip {
-	opacity: 1;
+.grid > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
 }
 
-.item .bar {
-	background-color: blue;
-	z-index: 1;
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	display: none;
-	opacity: .4;
-	transition: all 500ms linear;
+.sound {
+  background-color: #112;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.25rem;
 }
 
-.item.active .bar {
-	display: block;
+.title {
+  position: relative;
+  z-index: 2;
 }
 
-.item .title {
-	z-index: 2;
-	position: relative;
+.bar {
+  height: 100%;
+  background-color: #445;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s ease;
+  z-index: 1;
 }
-
-/* 
-.item span {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate3d(-50%, -50%, 0);
-	width: 100%;
-} */

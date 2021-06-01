@@ -5,13 +5,19 @@
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "build": "node build.js"
+    "dev": "concurrently \"nodemon -e js,pug build.js\" \"live-server -q\" ",
+    "start": "node build.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "change-case": "^3.1.0",
+    "fs-extra": "^10.0.0",
+    "live-server": "^1.2.1",
     "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
   }
 }
