@@ -26,13 +26,13 @@ $(function () {
   });
 
   $(".sound")
-    .mousedown(function () {
+    .on("touchstart mousedown", function (e) {
       let path = $(this).attr("src");
       $(this).show().addClass("active");
       audioElement.setAttribute("src", path);
       audioElement.addEventListener("canplay", handleCanPlay);
     })
-    .mouseup(function () {
+    .on("touchend mouseup", function (e) {
       audioElement.pause();
       audioElement.removeEventListener("canplay", handleCanPlay);
       audioElement.currentTime = 0;
