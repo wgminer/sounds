@@ -24,7 +24,7 @@ move.forEach((file) => {
 
   manifest.push({
     title: changeCase.titleCase(file.fileName.split(".")[0]).trim(),
-    path: "/audio/" + file.fileName,
+    path: "audio/" + file.fileName,
   });
 });
 
